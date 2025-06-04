@@ -5,12 +5,17 @@ This is a memory matching game implemented in MIPS assembly for the MARS simulat
 Bitmap Display Settings:
 
 Unit Width in Pixels: 1 px
+
 Unit Height in Pixels: 1 px
+
 Display Width in Pixels: 512 px
+
 Display Height in Pixels: 512 px
+
 Base address for display: 0x10010000 (static data)
 
 Controls:
+
 The game uses the keyboard for input. Each card is mapped to a key like this:
 
 1  2  3  4
@@ -27,8 +32,7 @@ Find two matching cards to keep them face-up.
 
 The game ends when all 8 pairs are found.
 
-Difficulty Levels:
-You can choose between 3 difficulty levels at the beginning:
+Difficulty Levels: You can choose between 3 difficulty levels at the beginning:
 
 1 (Easy): Cards stay visible longer (800ms delay).
 
@@ -36,12 +40,12 @@ You can choose between 3 difficulty levels at the beginning:
 
 3 (Hard): Cards flip quickly (50ms delay).
 
-Scoring:
-Each pair of selections (2 cards) counts as 1 move.
+Scoring: Each pair of selections (2 cards) counts as 1 move.
 
 The best score (lowest moves) is saved between games.
 
 Game Rules:
+
 If two flipped cards match, they stay open.
 
 If they don’t match, they flip back after a delay.
