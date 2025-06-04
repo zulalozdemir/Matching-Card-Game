@@ -3,15 +3,10 @@ MATCHING CARD GAME
 This is a memory matching game implemented in MIPS assembly for the MARS simulator. The game features a 4×4 grid (16 cards) with 8 matching pairs of different colors. The player must flip cards to find all matching pairs with the fewest moves possible.
 
 Bitmap Display Settings:
-
 Unit Width in Pixels: 1 px
-
 Unit Height in Pixels: 1 px
-
 Display Width in Pixels: 512 px
-
 Display Height in Pixels: 512 px
-
 Base address for display: 0x10010000 (static data)
 
 Controls:
