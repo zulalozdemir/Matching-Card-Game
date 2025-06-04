@@ -1,4 +1,5 @@
 MATCHING CARD GAME
+
 This is a memory matching game implemented in MIPS assembly for the MARS simulator. The game features a 4×4 grid (16 cards) with 8 matching pairs of different colors. The player must flip cards to find all matching pairs with the fewest moves possible.
 
 Bitmap Display Settings:
